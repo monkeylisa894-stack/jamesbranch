@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>James Branch | Maths Tutor</title>
+<meta name="description" content="One-to-one maths tuition with James Branch. KS3, GCSE and A-level, online or in person.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>➗</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14213d; --paper:#f7f9fb; --grid:#dbe4ee; --blue:#2f6fed; --sun:#ffc83d; --muted:#4a5a73; --white:#fff;
+  --head:"Bricolage Grotesque",system-ui,sans-serif; --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:1.0625rem/1.6 var(--body);color:var(--ink);background:var(--paper)}
+a{color:var(--blue)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-family:var(--head);line-height:1.1;margin:0 0 .6em}
+h1{font-size:clamp(2.6rem,8vw,5rem);font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);font-weight:800}
+h3{font-size:1.2rem;font-weight:600}
+p{margin:0 0 1em;max-width:60ch}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
+.brand{font-family:var(--head);font-weight:800;font-size:1.15rem;color:var(--ink);text-decoration:none}
+nav a{margin-left:1.25rem;color:var(--ink);text-decoration:none;font-weight:600}
+nav a:hover{text-decoration:underline}
+.hero{background:
+  linear-gradient(var(--grid) 1px,transparent 1px) 0 0/32px 32px,
+  linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/32px 32px,var(--paper);
+  border-bottom:2px solid var(--ink)}
+.hero .wrap{padding-top:1rem;padding-bottom:4.5rem}
+.hero h1{margin-top:3rem;max-width:12ch}
+.hero p.lead{font-size:1.25rem;max-width:34ch;background:var(--paper);display:inline-block;padding:.2rem .4rem .2rem 0}
+.btn{display:inline-block;background:var(--ink);color:var(--white);padding:.85rem 1.4rem;border-radius:.4rem;font-weight:700;text-decoration:none;border:2px solid var(--ink)}
+.btn:hover{background:var(--blue);border-color:var(--blue)}
+.btn.alt{background:var(--sun);color:var(--ink);border-color:var(--ink)}
+.btn.alt:hover{background:var(--white)}
+.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
+section{padding:4rem 0}
+section+section{border-top:1px solid var(--grid)}
+.levels{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1.5rem;margin-top:1.5rem}
+.levels div{border-left:4px solid var(--blue);padding-left:1rem}
+.levels p{margin:0;color:var(--muted)}
+ol.steps{padding-left:1.4rem;max-width:60ch}
+ol.steps li{margin-bottom:.8rem;padding-left:.3rem}
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.5rem;margin-top:1.5rem}
+.price{border:2px solid var(--ink);padding:1.25rem;background:var(--white)}
+.price strong{font-family:var(--head);font-size:2rem;display:block}
+blockquote{margin:0 0 1.5rem;padding-left:1rem;border-left:4px solid var(--sun);max-width:60ch}
+blockquote footer{color:var(--muted);font-size:.95rem;margin-top:.3rem}
+.todo{background:var(--sun);padding:0 .25rem;border-radius:.2rem}
+.contact{background:var(--ink);color:var(--white)}
+.contact a{color:var(--sun)}
+.contact .btn{background:var(--sun);color:var(--ink);border-color:var(--sun)}
+.contact .btn:hover{background:var(--white);border-color:var(--white)}
+footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
+@media (max-width:34rem){nav a:not(.keep){display:none}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="#">James Branch</a>
+      <nav aria-label="Main">
+        <a href="#levels">Levels</a>
+        <a href="#prices">Prices</a>
+        <a href="#about">About</a>
+        <a class="keep" href="#contact">Contact</a>
+      </nav>
+    </header>
+    <h1>Maths that makes sense.</h1>
+    <p class="lead">One-to-one maths tuition for KS3, GCSE and A-level, online or in person.</p>
+    <div class="actions">
+      <a class="btn" href="#contact">Book a free intro chat</a>
+      <a class="btn alt" href="#prices">See prices</a>
+    </div>
+  </div>
+</div>
+
+<main>
+<section id="levels">
+  <div class="wrap">
+    <h2>What I teach</h2>
+    <p>Every lesson is planned around the student, starting from what they already know.</p>
+    <div class="levels">
+      <div><h3>Key Stage 3</h3><p>Building solid foundations and confidence early.</p></div>
+      <div><h3>GCSE</h3><p>Foundation and Higher, all exam boards.</p></div>
+      <div><h3>A-level</h3><p>Pure, statistics and mechanics.</p></div>
+    </div>
+    <p style="margin-top:1.5rem"><span class="todo">[Edit these levels to match what you teach]</span></p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li>Send an enquiry with the student's year group and what they want help with.</li>
+      <li>We have a short, free intro chat to agree goals and a lesson time.</li>
+      <li>Lessons start, with a short summary after each one on what was covered and what to practise.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="wrap">
+    <h2>Prices</h2>
+    <div class="prices">
+      <div class="price"><strong><span class="todo">£[00]</span></strong>per hour, online</div>
+      <div class="price"><strong><span class="todo">£[00]</span></strong>per hour, in person</div>
+    </div>
+    <p style="margin-top:1rem">Lessons are one hour. <span class="todo">[Add your cancellation policy here]</span></p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About James</h2>
+    <p><span class="todo">[Two or three sentences: your maths background, how long you've tutored, and your teaching style.]</span></p>
+    <p><span class="todo">[Qualifications, and DBS check if you have one.]</span></p>
+  </div>
+</section>
+
+<section id="results">
+  <div class="wrap">
+    <h2>What families say</h2>
+    <blockquote>
+      <p><span class="todo">[Paste a real testimonial here, with permission.]</span></p>
+      <footer><span class="todo">[Parent or student initials, year group]</span></footer>
+    </blockquote>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <p>Places fill up through the school year, so it's worth asking early.</p>
+    <div class="actions">
+      <a class="btn" href="mailto:YOUR-EMAIL@example.com?subject=Maths%20tuition%20enquiry">Email James</a>
+    </div>
+    <p style="margin-top:1.25rem"><span class="todo" style="color:var(--ink)">YOUR-EMAIL@example.com</span> &nbsp; <span class="todo" style="color:var(--ink)">[phone number]</span></p>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">&copy; <span id="y"></span> James Branch. Maths tuition.</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
