@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>James Branch | Maths Tutor</title>
-<meta name="description" content="One-to-one maths tuition with James Branch. KS3, GCSE and A-level, online or in person.">
+<meta name="description" content="One-to-one maths tuition with James Branch, PhD in Mathematics. Mainly GCSE and A-level, online or in person.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>➗</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --ink:#14213d; --paper:#f7f9fb; --grid:#dbe4ee; --blue:#2f6fed; --sun:#ffc83d; --muted:#4a5a73; --white:#fff;
+  --ink:#14213d; --paper:#f7f9fb; --grid:#dbe4ee; --blue:#2f6fed; --sun:#9cc3ff; --muted:#4a5a73; --white:#fff;
   --head:"Bricolage Grotesque",system-ui,sans-serif; --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
 *{box-sizing:border-box}
@@ -58,6 +58,8 @@ blockquote footer{color:var(--muted);font-size:.95rem;margin-top:.3rem}
 .contact a{color:var(--sun)}
 .contact .btn{background:var(--sun);color:var(--ink);border-color:var(--sun)}
 .contact .btn:hover{background:var(--white);border-color:var(--white)}
+ul.creds{padding-left:1.2rem;max-width:60ch;margin:0 0 1em}
+ul.creds li{margin-bottom:.4rem}
 footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
 @media (max-width:34rem){nav a:not(.keep){display:none}}
 </style>
@@ -76,7 +78,7 @@ footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
       </nav>
     </header>
     <h1>Maths that makes sense.</h1>
-    <p class="lead">One-to-one maths tuition for KS3, GCSE and A-level, online or in person.</p>
+    <p class="lead">One-to-one maths tuition from a PhD mathematician. All stages, mainly GCSE and A-level, online or in person.</p>
     <div class="actions">
       <a class="btn" href="#contact">Book a free intro chat</a>
       <a class="btn alt" href="#prices">See prices</a>
@@ -88,13 +90,12 @@ footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
 <section id="levels">
   <div class="wrap">
     <h2>What I teach</h2>
-    <p>Every lesson is planned around the student, starting from what they already know.</p>
+    <p>I teach every stage, and most students are preparing for GCSE or A-level. Every lesson is planned around the student, starting from what they already know.</p>
     <div class="levels">
-      <div><h3>Key Stage 3</h3><p>Building solid foundations and confidence early.</p></div>
       <div><h3>GCSE</h3><p>Foundation and Higher, all exam boards.</p></div>
-      <div><h3>A-level</h3><p>Pure, statistics and mechanics.</p></div>
+      <div><h3>A-level</h3><p>A-level Maths, from core topics to exam technique.</p></div>
+      <div><h3>All other stages</h3><p>Primary, Key Stage 3, and university-level maths.</p></div>
     </div>
-    <p style="margin-top:1.5rem"><span class="todo">[Edit these levels to match what you teach]</span></p>
   </div>
 </section>
 
@@ -113,28 +114,25 @@ footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
   <div class="wrap">
     <h2>Prices</h2>
     <div class="prices">
-      <div class="price"><strong><span class="todo">£[00]</span></strong>per hour, online</div>
-      <div class="price"><strong><span class="todo">£[00]</span></strong>per hour, in person</div>
+      <div class="price"><strong>£40</strong>per hour, online</div>
+      <div class="price"><strong>£60</strong>per hour, in person</div>
     </div>
-    <p style="margin-top:1rem">Lessons are one hour. <span class="todo">[Add your cancellation policy here]</span></p>
+    <p style="margin-top:1rem">Lessons are one hour.</p>
   </div>
 </section>
 
 <section id="about">
   <div class="wrap">
     <h2>About James</h2>
-    <p><span class="todo">[Two or three sentences: your maths background, how long you've tutored, and your teaching style.]</span></p>
-    <p><span class="todo">[Qualifications, and DBS check if you have one.]</span></p>
-  </div>
-</section>
-
-<section id="results">
-  <div class="wrap">
-    <h2>What families say</h2>
-    <blockquote>
-      <p><span class="todo">[Paste a real testimonial here, with permission.]</span></p>
-      <footer><span class="todo">[Parent or student initials, year group]</span></footer>
-    </blockquote>
+    <p>I'm a mathematician with a PhD from the University of Nottingham. I've presented technical work to audiences with very different backgrounds, so I'm used to adjusting the level until an idea clicks.</p>
+    <ul class="creds">
+      <li>PhD, Mathematics, University of Nottingham, 2021&ndash;2025</li>
+      <li>MASt (Part III), Mathematics, University of Cambridge, 2019&ndash;2020</li>
+      <li>MMath, Mathematics, University of Sussex, 2015&ndash;2019</li>
+      <li>Hirschfeld Prize, top mathematics graduate, University of Sussex</li>
+      <li>Co-author of a peer-reviewed academic paper</li>
+    </ul>
+    <p>I'm fluent in English and Spanish, and Catalan is my first language.</p>
   </div>
 </section>
 
@@ -143,9 +141,9 @@ footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
     <h2>Get in touch</h2>
     <p>Places fill up through the school year, so it's worth asking early.</p>
     <div class="actions">
-      <a class="btn" href="mailto:YOUR-EMAIL@example.com?subject=Maths%20tuition%20enquiry">Email James</a>
+      <a class="btn" href="mailto:jamesbranch1997@gmail.com?subject=Maths%20tuition%20enquiry">Email James</a>
     </div>
-    <p style="margin-top:1.25rem"><span class="todo" style="color:var(--ink)">YOUR-EMAIL@example.com</span> &nbsp; <span class="todo" style="color:var(--ink)">[phone number]</span></p>
+    <p style="margin-top:1.25rem"><a href="mailto:jamesbranch1997@gmail.com">jamesbranch1997@gmail.com</a> &nbsp; <a href="tel:+447754492769">07754 492769</a></p>
   </div>
 </section>
 </main>
