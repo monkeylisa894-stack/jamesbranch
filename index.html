@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>James Branch | Maths Tutor</title>
-<meta name="description" content="One-to-one maths tuition with James Branch, PhD in Mathematics. Mainly GCSE and A-level, online or in person.">
+<title>Maths Tutor | GCSE and A-level Maths Tuition, Online and In Person | James Branch</title>
+<meta name="description" content="One-to-one maths tuition with James Branch, PhD in Mathematics. Mainly GCSE and A-level, online from £40 an hour or in person from £60.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>➗</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,9 +50,15 @@ ol.steps{padding-left:1.4rem;max-width:60ch}
 ol.steps li{margin-bottom:.8rem;padding-left:.3rem}
 .prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.5rem;margin-top:1.5rem}
 .price{border:2px solid var(--ink);padding:1.25rem;background:var(--white)}
-.price strong{font-family:var(--head);font-size:2rem;display:block}
-blockquote{margin:0 0 1.5rem;padding-left:1rem;border-left:4px solid var(--sun);max-width:60ch}
-blockquote footer{color:var(--muted);font-size:.95rem;margin-top:.3rem}
+.price h3{margin-bottom:.8rem}
+.price .row{display:flex;align-items:baseline;gap:.6rem;margin-bottom:.4rem}
+.price .row:last-child{margin-bottom:0}
+.price strong{font-family:var(--head);font-size:2rem;line-height:1}
+.price .row+.row strong{font-size:1.5rem}
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:1.5rem;margin-top:1.5rem}
+.review{margin:0;padding:1.25rem;background:var(--white);border:2px solid var(--ink);border-left:6px solid var(--blue)}
+.review p{margin:0 0 1rem}
+.review footer{color:var(--muted);font-size:.95rem;font-weight:600}
 .todo{background:var(--sun);padding:0 .25rem;border-radius:.2rem}
 .contact{background:var(--ink);color:var(--white)}
 .contact a{color:var(--sun)}
@@ -63,6 +69,15 @@ ul.creds li{margin-bottom:.4rem}
 footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
 @media (max-width:34rem){nav a:not(.keep){display:none}}
 </style>
+<link rel="canonical" href="https://monkeylisa894-stack.github.io/jamesbranch/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maths Tutor | GCSE and A-level Maths Tuition, Online and In Person | James Branch">
+<meta property="og:description" content="One-to-one maths tuition with James Branch, PhD in Mathematics. Mainly GCSE and A-level, online from £40 an hour or in person from £60.">
+<meta property="og:url" content="https://monkeylisa894-stack.github.io/jamesbranch/">
+<meta name="theme-color" content="#14213d">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"James Branch Maths Tuition","url":"https://monkeylisa894-stack.github.io/jamesbranch/","description":"One-to-one maths tuition for GCSE, A-level and all other stages, online and in person, taught by a PhD mathematician.","email":"jamesbranch1997@gmail.com","telephone":"+447754492769","priceRange":"£20-£60","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["GCSE Maths","A-level Maths"],"founder":{"@type":"Person","name":"James Branch","jobTitle":"Maths Tutor"}}
+</script>
 </head>
 <body>
 
@@ -73,6 +88,7 @@ footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
       <nav aria-label="Main">
         <a href="#levels">Levels</a>
         <a href="#prices">Prices</a>
+        <a href="#reviews">Reviews</a>
         <a href="#about">About</a>
         <a class="keep" href="#contact">Contact</a>
       </nav>
@@ -114,10 +130,46 @@ footer.site{padding:1.5rem 0;color:var(--muted);font-size:.9rem}
   <div class="wrap">
     <h2>Prices</h2>
     <div class="prices">
-      <div class="price"><strong>£40</strong>per hour, online</div>
-      <div class="price"><strong>£60</strong>per hour, in person</div>
+      <div class="price">
+        <h3>Online</h3>
+        <div class="row"><strong>£40</strong><span>per hour</span></div>
+        <div class="row"><strong>£20</strong><span>per half hour</span></div>
+      </div>
+      <div class="price">
+        <h3>In person</h3>
+        <div class="row"><strong>£60</strong><span>per hour</span></div>
+        <div class="row"><strong>£30</strong><span>per half hour</span></div>
+      </div>
     </div>
-    <p style="margin-top:1rem">Lessons are one hour.</p>
+    <p style="margin-top:1rem">Lessons are one hour or half an hour.</p>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <h2>What people say</h2>
+    <div class="reviews">
+      <blockquote class="review">
+        <p>&ldquo;James has a rare ability to make difficult mathematics feel manageable. He quickly identified where my son was struggling and adapted his explanations to suit him. His confidence improved enormously, and so did his results. I would highly recommend James to any student preparing for GCSE or A-level Mathematics.&rdquo;</p>
+        <footer>Parent of an A-level student</footer>
+      </blockquote>
+      <blockquote class="review">
+        <p>&ldquo;James explains mathematics in a completely different way from what I was used to at school. He doesn&rsquo;t just show you how to get the answer &mdash; he makes sure you understand why it works. I became much more confident tackling unfamiliar questions.&rdquo;</p>
+        <footer>A-level Mathematics student</footer>
+      </blockquote>
+      <blockquote class="review">
+        <p>&ldquo;Before working with James, I found maths really frustrating. He broke problems down into steps that actually made sense to me and helped me understand where I was going wrong. I felt much more confident going into my exams.&rdquo;</p>
+        <footer>GCSE Mathematics student</footer>
+      </blockquote>
+      <blockquote class="review">
+        <p>&ldquo;James was extremely professional, well prepared and approachable. He understood exactly what my daughter needed and tailored every session accordingly. We saw a noticeable improvement not only in her understanding, but in her confidence.&rdquo;</p>
+        <footer>Parent of a GCSE student</footer>
+      </blockquote>
+      <blockquote class="review">
+        <p>&ldquo;James combines exceptional mathematical ability with a genuine talent for explaining complex ideas clearly. He is patient, rigorous and highly attentive to the needs of the person he is teaching. I would have no hesitation recommending him as a mathematics tutor.&rdquo;</p>
+        <footer>Academic colleague</footer>
+      </blockquote>
+    </div>
   </div>
 </section>
 
